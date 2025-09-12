@@ -1,4 +1,4 @@
-def gcd_euclidean(a, b):
+def gcd_euclidean(a, b):  # "Graetest Common Divisor algorithm"
     while b:
         a, b = b, a % b
     return a
